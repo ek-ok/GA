@@ -1,8 +1,11 @@
 Project 1 Peer Review
 
 Peer: Julie (Xiaoshu) Qiu
+
 Link: http://nbviewer.ipython.org/github/caramelslice/GA_Projects/blob/master/project1/alcohol_ds_project1-final.ipynb
+
 Reviewer: E.K. 
+
 Date: 3/1/2015
 
 
