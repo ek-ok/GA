@@ -9,7 +9,7 @@ Date: 3/1/2015
 
 It is good that Theodore included “contents” at the top. It makes easier for reader to understand what I am about to see. I will write feedback based on his contents.
 
-1. Overview of Data Collection
+- Overview of Data Collection
 - Well done, he is very clear about the data source, how the data looks like
 - He used data sets for 2011 and 2012. Why not 2013 and 2014? They are not available yet?
 
