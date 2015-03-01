@@ -9,9 +9,9 @@ Date: 3/1/2015
 
 It is good that Theodore included “contents” at the top. It makes easier for reader to understand what I am about to see. I will write feedback based on his contents.
 
-- Overview of Data Collection
-- Well done, he is very clear about the data source, how the data looks like
-- He used data sets for 2011 and 2012. Why not 2013 and 2014? They are not available yet?
+1. Overview of Data Collection
+	- Well done, he is very clear about the data source, how the data looks like
+	- He used data sets for 2011 and 2012. Why not 2013 and 2014? They are not available yet?
 
 2. Importing and Cleaning Data
 - Did not know we can do, "bbl st_no st_name borough zip bench_sub entry_no ".split() very cool!
