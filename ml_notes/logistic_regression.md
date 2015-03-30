@@ -3,11 +3,11 @@
 > What data problem does it solve?
 
 - categorical (mostly binary)
-- supervised learner
+- supervised learner)
 
 > How do we evaluate performance?
 
-- accuracy: number correct/ number of observations
+-accuracy: number correct/ number of observations
 - correlation,chi^2 test(features)
 
 > What is the output?
