@@ -11,8 +11,8 @@ confusion matrix : false positive, true positive false negative, true negative
 
 > What is the output?
 
-probability of Y given features
-P(Y|Xn) opposite of logistic regression
+- probability of Y given features
+- P(Y|Xn) opposite of logistic regression
 
 > What is interpretable of the algorithm?
 
@@ -28,7 +28,7 @@ all features are independent of each other -- not as likely to overfit. Does ver
 
 > How is it customizable?
 
-sklearn has an alpha perameter
-Bernoulli or Multnomial
-Bernoulli - presence (matrix of 0's and 1's)
-multinomial - count ( matrix of all numbers)
+- sklearn has an alpha perameter
+- Bernoulli or Multnomial
+- Bernoulli - presence (matrix of 0's and 1's)
+- multinomial - count ( matrix of all numbers)
