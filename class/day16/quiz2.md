@@ -1,4 +1,5 @@
 >1. 
+
 - Ordinary Least Squares (regression)
 - Logistic Regression (classification)
 - Naive Bayes (classification)
