@@ -33,10 +33,11 @@ dimension reduction
 
 >3. All sklearn prediction objects have functions akin to fit(), transform(), predict(), and fit_transform(). Explain each in their most general terms.
 
-fit() - feed matrix into algo
-transform() - transform matrix
+fit() - fit data (finding coefficients, odds)
+transform() - transform matrix (only returns certain features), original x to new x
 fit_transform() - does both of the above
 predict() - predict based on the trained model
+score - some metric given (original y and predicted y)
 
 >4. Two of the above algorithms can use kernels (in their sklearn context) a. Explain what a kernel does b. Which are the two algorithms that use kernels?
 
@@ -51,11 +52,12 @@ Classify items by creating nodes and trees
 >6. You are working on microarray (DNA) samples where number of observations (n) is 5 and number of observations (m) is > 10,000.
 
 i. Describe a supervised and unsupervised technique in order to reduce the number of features in the samples to those that are most significant.
-supervised: feature selection, using p and f values
+supervised: lasso (L1) regression
 unsupervised: PCA
 
 ii. Compare the two techniques in their solution.
-PCA is a linear transformation of data
+Lasso: maintain original features, just removes some features
+PCA: linear transformation of data to identify principal components
 
 >7. Below is a table of Gini Importance (Normalized to 1) in predicting rent in New York City.
 
