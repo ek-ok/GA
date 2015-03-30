@@ -1,18 +1,18 @@
-1. 
-Ordinary Least Squares  (regression)
-Logistic Regression (classification)
-Naive Bayes (classification)
-Decision Trees (regression, classification)
-Support Vector Machines (regression, classification)
-Nearest Neighbors (regression, classification)
-K Means (clustering)
-Principal Component Analysis (dimension reduction)
+>1. 
+- Ordinary Least Squares (regression)
+- Logistic Regression (classification)
+- Naive Bayes (classification)
+- Decision Trees (regression, classification)
+- Support Vector Machines (regression, classification)
+- Nearest Neighbors (regression, classification)
+- K Means (clustering)
+- Principal Component Analysis (dimension reduction)
 
-2. 
+>2. 
 Given the 4 entities in the matrix above, describe a problem / example we worked on in class for each, and provide one idea on your own.
 
 regression
-- solves continuous problems to solve for y
+- solves continuous problems to predict y
 - ex1 predict used car price
 - ex2 predict beer rating based on reviews
 
