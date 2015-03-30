@@ -5,3 +5,4 @@ Decision Trees
 SVM
 KNN
 K Means
+PCA

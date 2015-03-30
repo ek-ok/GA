@@ -7,8 +7,9 @@
 
 > How do we evaluate performance?
 
--accuracy: number correct/ number of observations
-- correlation,chi^2 test(features)
+- accuracy: number correct/ number of observations
+- correlation
+- chi^2 test(features)
 
 > What is the output?
 
@@ -16,8 +17,8 @@ probability
 
 > What is interpretable of the algorithm?
 
-coeffiecints(log-odds)
-average result given no information( )
+- coeffiecints(log-odds)
+- average result given no information( )
 
 > How is it prone to overfitting?
 

@@ -13,8 +13,8 @@
 
 > What is the output?
 
-- regression: y = averages at nodes
 - classification: y = purity at each node (probability measure)
+- regression: y = averages at nodes
 
 > What is interpretable of the algorithm?
 
