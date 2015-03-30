@@ -6,8 +6,8 @@ regression analysis (continuous, supervised learner)
 
 > How do we evaluate performance?
 
-R^2: explanation of variance in the data
-p-values: explanation of relationship of features to the target variable
+- R^2: explanation of variance in the data
+- p-values: explanation of relationship of features to the target variable
 
 error: clearer relationship of error to the data, but scales with the data (to inf)
 
