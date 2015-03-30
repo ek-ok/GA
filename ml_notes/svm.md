@@ -38,3 +38,10 @@ C
 > How does an SVM hyperplane differ from a logistic hyperplane?
 
 Logistic model gets pulled towards new samples, SVM doesn't neccessarily have that
+
+> Types
+
+- SGD = Stochastic Gradient Descent
+- SVM - Support Vector Machine 
+- SVC - Support Vector Classifier
+- SVR - Support Vector Regressor
