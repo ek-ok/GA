@@ -27,3 +27,14 @@ Since any 2 points make a line, and any 3 points make a plane, etc., the more fe
 
 kernel
 C
+
+> What makes SVM better than others:
+
+- kernals,
+- using a subset of data ( support vectors and sparse matrix)
+- effective in high dimension
+- still effective in large sample size 
+
+> How does an SVM hyperplane differ from a logistic hyperplane?
+
+Logistic model gets pulled towards new samples, SVM doesn't neccessarily have that
