@@ -16,15 +16,13 @@ confusion matrix : false positive, true positive false negative, true negative
 
 > What is interpretable of the algorithm?
 
-probability of feature showing up given y
-P(Xn|Y) 
-and P(Y)
-Probability of y is a priori
-P(Xn)
+- probability of feature showing up given y P(Xn|Y) and P(Y)
+- Probability of y is a priori P(Xn)
 
 > How is it prone to overfitting?
 
-all features are independent of each other -- not as likely to overfit. Does very well with small datasets, predicts very well on larger datasets, but 'coef' tends to be less useful 
+- all features are independent of each other -- not as likely to overfit. 
+- Does very well with small datasets, predicts very well on larger datasets, but 'coef' tends to be less useful 
 
 > How is it customizable?
 
