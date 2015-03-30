@@ -7,8 +7,8 @@
 
 > How do we evaluate performance?
 
-accuracy: number correct/ number of observations
-correlation,chi^2 test(features)
+- accuracy: number correct/ number of observations
+- correlation,chi^2 test(features)
 
 > What is the output?
 
