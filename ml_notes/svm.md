@@ -1,7 +1,3 @@
-# Machine Learning Notetaker
-
-Use this notetaker for each algorithm so you can keep track of the important information for each algorithm
-
 ## SVM
 
 > What data problem does it solve?
