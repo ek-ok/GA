@@ -2,36 +2,33 @@
 
 > What data problem does it solve?
 
-classification , supervised learner (classification)
-regression, supervised 
+categorical , supervised learner (classification)
 
 > How do we evaluate performance?
 
 accuracy: number correct/ number of observations
 confusion matrix : false positive, true positive false negative, true negative
-roc curve: plotting true positive rate over false positive reate
 
 > What is the output?
-regression:
-y = averages at nodes
-classification:
-y = purity at each node (probability measure)
 
- 
+probability of Y given features
+P(Y|Xn) opposite of logistic regression
 
 > What is interpretable of the algorithm?
 
-"feature importance": measures information gain normalized to 1
-
-rule sets: graphviz
+probability of feature showing up given y
+P(Xn|Y) 
+and P(Y)
+Probability of y is a priori
+P(Xn)
 
 > How is it prone to overfitting?
 
-you allow the decision tree to go to far down, allows for to many subsets, which means the training set will be incredibly accurate(even perfect), test set will be significantly worse
+all features are independent of each other -- not as likely to overfit. Does very well with small datasets, predicts very well on larger datasets, but 'coef' tends to be less useful 
 
 > How is it customizable?
 
-max depth: maximum number of node depth toconsider
-min samples in a split: min has to be 2,but can increase
-max features: how many features to use
-min samples in a leaf: min has to be 2 but ca
+sklearn has an alpha perameter
+Bernoulli or Multnomial
+Bernoulli - presence (matrix of 0's and 1's)
+multinomial - count ( matrix of all numbers)
