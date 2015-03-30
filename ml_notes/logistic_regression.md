@@ -2,7 +2,8 @@
 
 > What data problem does it solve?
 
-categorical (mostly binary), supervised learner)
+- categorical (mostly binary)
+- supervised learner
 
 > How do we evaluate performance?
 
