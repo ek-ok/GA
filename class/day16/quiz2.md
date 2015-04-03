@@ -1,7 +1,7 @@
 Quiz 2
 --------------------------------------------------
 
->1
+>1)
 
 - Ordinary Least Squares (regression)
 - Logistic Regression (classification)
@@ -12,7 +12,7 @@ Quiz 2
 - K Means (clustering)
 - Principal Component Analysis (dimension reduction)
 
->2 Given the 4 entities in the matrix above, describe a problem / example we worked on in class for each, and provide one idea on your own.
+>2) Given the 4 entities in the matrix above, describe a problem / example we worked on in class for each, and provide one idea on your own.
 
 regression
 - solves continuous problems to predict y
