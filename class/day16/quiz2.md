@@ -1,3 +1,6 @@
+Quiz 2
+--------------------------------------------------
+
 >1. 
 
 - Ordinary Least Squares (regression)
