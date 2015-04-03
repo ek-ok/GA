@@ -34,7 +34,7 @@ dimension reduction
 - ex1 to predict beer rating use PCA for rating fields such as overall rating, taste, or small. They have multicollinearity issues.
 - ex2 predict IQ based on multiple subjects
 
->3. All sklearn prediction objects have functions akin to fit(), transform(), predict(), and fit_transform(). Explain each in their most general terms.
+>3) All sklearn prediction objects have functions akin to fit(), transform(), predict(), and fit_transform(). Explain each in their most general terms.
 
 fit() - fit data (finding coefficients, odds)
 transform() - transform matrix (only returns certain features), original x to new x
@@ -42,17 +42,17 @@ fit_transform() - does both of the above
 predict() - predict based on the trained model
 score - some metric given (original y and predicted y)
 
->4. Two of the above algorithms can use kernels (in their sklearn context) a. Explain what a kernel does b. Which are the two algorithms that use kernels?
+>4) Two of the above algorithms can use kernels (in their sklearn context) a. Explain what a kernel does b. Which are the two algorithms that use kernels?
 
 karnel - type of hyperparameter that helps to do some calculations faster which otherwise would involve computations in higher dimensional space. 
 SVM,  logistic regression
 
-> 5. One of the above algorithms is most obviously not a linear solution to classification (it does not draw straight decision lines). Which algorithm is it, and how does it decide on decision lines?
+> 5) One of the above algorithms is most obviously not a linear solution to classification (it does not draw straight decision lines). Which algorithm is it, and how does it decide on decision lines?
 
 Decision Tree
 Classify items by creating nodes and trees
 
->6. You are working on microarray (DNA) samples where number of observations (n) is 5 and number of observations (m) is > 10,000.
+>6) You are working on microarray (DNA) samples where number of observations (n) is 5 and number of observations (m) is > 10,000.
 
 i. Describe a supervised and unsupervised technique in order to reduce the number of features in the samples to those that are most significant.
 supervised: lasso (L1) regression
@@ -62,21 +62,21 @@ ii. Compare the two techniques in their solution.
 Lasso: maintain original features, just removes some features
 PCA: linear transformation of data to identify principal components
 
->7. Below is a table of Gini Importance (Normalized to 1) in predicting rent in New York City.
+>7) Below is a table of Gini Importance (Normalized to 1) in predicting rent in New York City.
 
 i. Decision Tree
 ii. Sqft and bedrooms are the two most important features to predict rent
 
->8. What is the Receiving Operator Characteristic Curve? What two metrics is it composed of?
+>8) What is the Receiving Operator Characteristic Curve? What two metrics is it composed of?
 
 ROC is used along with confusion matrix to evaluate a classifier
 True positive rate over false positive reate
 
->9. How does a grid search work? Use an example algorithm from above to help explain it.
+>9) How does a grid search work? Use an example algorithm from above to help explain it.
 
 Decision tree, use grid search to evaluate the depth for example
 
->10. 
+>10)
 
 i. What's your strongest "takeaway" from machine learning and this segment of the course?
 Got a good undertanding to 4 different types of ML algos and got some practice. I will probably use regression and Kmeans the most for my work.
